@@ -1,3 +1,7 @@
+Latest release:
+https://github.com/SaintPaddy/LogRhythmConfigBackup/releases/tag/v1.0.0
+
+
 # LogRhythm Config Backup
 
 The 'LogRhythm Config Backup' is a Windows service that performs daily backups of the LogRhythm System Monitor configuration files.
