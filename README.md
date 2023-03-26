@@ -19,12 +19,6 @@ There are two ways to install the MSI:
 * Double-click the MSI file and follow the prompts.
 * Use an elevated command prompt to install the MSI using the following command: `msiexec /i LogRhythm_Config_Backup_v1.0.msi`
 
-Once installed, the application is setup and ready to use.
-
-* Use the command line to install the MSI using the `msiexec` command. Please note that the command must be run as administrator:
-```
-msiexec /i LogRhythm_Config_Backup_v1.0.msi
-```
 After installation, the service will be automatically started and configured to run daily backups of the LogRhythm System Monitor INI files.
 
 ## Configuration
@@ -37,6 +31,9 @@ The following settings can be customized:
 <br />Make sure to save the config.ini file after making any changes. You have to restart the Windows Service for them to take effect.
 <br />
 <br />This service will log its actions in the 'Application' Windows Event Log for easy tracking and troubleshooting purposes.
+
+## Support
+If you encounter any issues while using this application, please don't hesitate to reach out for support. You can submit a support request through the GitHub Issues page, and I'll do my best to help you as quickly as possible.
 <br />
 <br />
 <br />
