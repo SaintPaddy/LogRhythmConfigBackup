@@ -12,9 +12,15 @@ To use this application, you'll need to have the .NET Framework 4.7.2 installed.
 
 ## Installation
 
-To install the service, simply download the latest release from the releases page and install the MSI. There are two ways to install the MSI:
+To install the service, simply download the latest release from the releases page. The installation process is straightforward and should only take a few seconds to complete. Note that the installation folder is fixed and cannot be changed. 
+The application will be installed in the following directory: `%ProgramFiles(x86)%\LogRhythm_Config_Backup\`
 
+There are two ways to install the MSI:
 * Double-click the MSI file and follow the prompts.
+* Use an elevated command prompt to install the MSI using the following command: `msiexec /i LogRhythm_Config_Backup_v1.0.msi`
+
+Once installed, the application is setup and ready to use.
+
 * Use the command line to install the MSI using the `msiexec` command. Please note that the command must be run as administrator:
 ```
 msiexec /i LogRhythm_Config_Backup_v1.0.msi
