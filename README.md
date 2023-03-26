@@ -7,10 +7,10 @@ The 'LogRhythm Config Backup' is a Windows service that performs daily backups o
 To install the service, simply download the latest release from the releases page and install the MSI. There are two ways to install the MSI:
 
 * Double-click the MSI file and follow the prompts.
-* Use the command line to install the MSI using the msiexec command:
+* Use the command line to install the MSI using the `msiexec` command. Please note that the command must be run as administrator:
 bash
 ```
-msiexec /i LogRhythmBackupService.msi /quiet
+msiexec /i LogRhythm_Config_Backup_v1.0.msi
 ```
 After installation, the service will be automatically started and configured to run daily backups of the LogRhythm System Monitor INI files.
 
