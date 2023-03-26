@@ -34,7 +34,8 @@ The following settings can be customized:
 <br />
 <br />
 <br />
-<br /># Sidenote
+<br />
+# Sidenote
 ## Purpose
 
 The LogRhythm System Monitor is an important agent that we use to collect logs from our customers. However, during agent upgrades, we have noticed that the settings in the INI files can disappear, causing us to lose important Office365 connections. Unfortunately, customers often do not perform backups of these INI files, which is why we created this small program. The LogRhythm Backup Service automatically performs daily backups of the INI files located on the same server as the LogRhythm System Monitor, ensuring that important settings are never lost. 
