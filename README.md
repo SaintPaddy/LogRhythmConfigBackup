@@ -25,9 +25,9 @@ BackupTime: The time of day when the backup should be performed. Format: HH:mm. 
 BackupLocation: The folder where the backups should be stored. Default: C:\LogRhythm_config_backups.
 NumBackupsToKeep: The number of backups to keep. Default: 30.
 Make sure to save the config.ini file after making any changes.
-  
-  
+<br />
+<br />
 This service will log its actions in the Windows Event Log for easy tracking and troubleshooting purposes.
-  
-  
+<br />
+<br />
 While I have previously written small PowerShell scripts that run as Windows Services and create their own wrappers, this is my first attempt at using C#. To create the Windows Service, NSSM (https://nssm.cc/) is included in the zip file. I hope this tool proves useful to someone in need of backing up LogRhythm System Monitor INI files without the need to involve other support teams.
