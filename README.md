@@ -8,7 +8,6 @@ To install the service, simply download the latest release from the releases pag
 
 * Double-click the MSI file and follow the prompts.
 * Use the command line to install the MSI using the `msiexec` command. Please note that the command must be run as administrator:
-bash
 ```
 msiexec /i LogRhythm_Config_Backup_v1.0.msi
 ```
