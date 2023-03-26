@@ -4,7 +4,10 @@ The 'LogRhythm Config Backup' is a Windows service that performs daily backups o
 
 ## Purpose
 
-The LogRhythm System Monitor is an important agent that we use to collect logs from our customers. However, during agent upgrades, we have noticed that the settings in the INI files can disappear, causing us to lose important Office365 connections. Unfortunately, customers often do not perform backups of these INI files, which is why we created this small program. The LogRhythm Backup Service automatically performs daily backups of the INI files located on the same server as the LogRhythm System Monitor, ensuring that important settings are never lost. Why on the same server? So we don't have to contact other teams to assist us in restoring our INI files. 
+The LogRhythm System Monitor is an important agent that we use to collect logs from our customers. However, during agent upgrades, we have noticed that the settings in the INI files can disappear, causing us to lose important Office365 connections. Unfortunately, customers often do not perform backups of these INI files, which is why we created this small program. The LogRhythm Backup Service automatically performs daily backups of the INI files located on the same server as the LogRhythm System Monitor, ensuring that important settings are never lost. 
+**Why are the backups on the same server?** So we don't have to contact other teams to assist us in restoring our INI files. 
+Rest assured, this application consumes very little disk space, typically only a few KB per backup and 4 MB for the installation.
+
 
 ## Installation
 
