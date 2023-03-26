@@ -24,10 +24,10 @@ After installation, the service will be automatically started and configured to 
 
 The service can be configured by editing the config.ini file that is located in the same folder as the executable. The following settings can be customized:
 
-BackupTime: The time of day when the backup should be performed. Format: HH:mm. Default: 20:00.
-BackupPath: The folder where the backups should be stored. Default: C:\LogRhythm_config_backups.
-MaxBackups: The number of backups to keep. Default: 30.
-Make sure to save the config.ini file after making any changes.
+`BackupTime`: The time of day when the backup should be performed. Format: HH:mm. Default: 20:00.
+`BackupPath`: The folder where the backups should be stored. Default: C:\LogRhythm_config_backups.
+`MaxBackups`: The number of backups to keep. Default: 30.
+Make sure to save the config.ini file after making any changes. You have to restart the Windows Service for them to take effect.
 <br />
 <br />
 <br />
