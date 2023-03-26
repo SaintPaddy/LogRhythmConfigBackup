@@ -112,9 +112,8 @@ public class LogRhythmBackupService : BackgroundService
 
     private bool IsMalicious(string value)
     {
-        // Build checks if wished
-
-
+        // Build checks if wished - I added none, assuming that no-one has write permissions in the 'Program Files', so no strange values can be submitted.
+        
         // If none of the checks above return true, the value is considered not malicious
         return false;
     }
