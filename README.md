@@ -1,6 +1,7 @@
-Latest release:
+Latest release (compiled and ready to use):
 https://github.com/SaintPaddy/LogRhythmConfigBackup/releases/tag/v1.0.0
 
+<br /><br /><br />
 
 # LogRhythm Config Backup
 
