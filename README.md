@@ -1,9 +1,4 @@
-# LogRhythmConfigBackup
-
-
-
-
-# LogRhythm Backup Service
+# LogRhythm Config Backup
 
 The 'LogRhythm Config Backup' is a Windows service that performs daily backups of the LogRhythm System Monitor configuration files.
 
