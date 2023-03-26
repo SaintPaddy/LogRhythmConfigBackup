@@ -41,8 +41,14 @@ If you encounter any issues while using this application, please don't hesitate 
 # Sidenote
 ## Purpose
 
-The LogRhythm System Monitor is an important agent that we use to collect logs from our customers. However, during agent upgrades, we have noticed that the settings in the INI files can disappear, causing us to lose important Office365 connections. Unfortunately, customers often do not perform backups of these INI files, which is why we created this small program. The LogRhythm Backup Service automatically performs daily backups of the INI files located on the same server as the LogRhythm System Monitor, ensuring that important settings are never lost. 
+The LogRhythm System Monitor is an important agent that we use to collect logs from our customers. However, during agent upgrades, we have noticed that the settings in the INI files can disappear, causing us to lose important Office365 connections. Unfortunately, customers often do not perform backups of these INI files, which is why I created this small program. The LogRhythm Backup Service automatically performs daily backups of the INI files located on the same server as the LogRhythm System Monitor, ensuring that important settings are never lost. 
 **Why are the backups on the same server?** So we don't have to contact other teams to assist us in restoring our INI files. 
+
+## Source Code
+
+If you're interested in viewing the source code for this application, it's available in this repository. Please note that the source code is provided for informational purposes only and is not intended to be used as-is. In order to use the application, you'll need to compile the source code in Visual Studio and (in you require an installer) wrap it in an MSI installer.
+
+To ensure a smooth installation process, it's recommended to use the MSI installer provided on the Releases page rather than attempting to compile the source code yourself. The Releases page contains only the compiled MSI installer and does not include any source code.
 
 ## Personal note
 As someone who has previously focused on developing small PowerShell scripts that run as Windows Services and create their own wrappers, this project marks my first venture into C# programming. Despite consulting ChatGPT for guidance at times, the development process still required an entire weekend to complete to my satisfaction.
